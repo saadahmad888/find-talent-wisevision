@@ -1,0 +1,22 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --text-light: #e0c3e6;
+    --text-muted: rgb(86, 71, 108);
+    --text-voilet: #5b2460;
+    --voilet: rgb(58, 15, 50);
+    --voilet-bg: rgb(79, 24, 67);
+    --purple: rgb(31, 14, 65);
+    --purple-bg: rgb(19, 7, 40);
+    --navbar-dark-bg: #111827;
+    --yellow-orange: #F69B43;
+    /* --primary: #FFB534; */
+    --primary: #B3C182;
+    --primary-green: #2D7C53;
+    --secondary: #65B741;
+    --light-secondary: #C1F2B0;
+    /* --palate-gray: #FBF6EE; */
+    --palate-gray: #fff;
+    --text: #273841;
+    --light-text: #485450;
+}

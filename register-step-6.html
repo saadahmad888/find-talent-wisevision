@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - FindTalent</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome Style-Sheet -->
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <!-- Owl Carsoule -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- Intel tel Input -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@16.0.2/build/css/intlTelInput.css">
+    <!-- Include flags CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/img/flags.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/img/flags.css">
+    <!-- Date Range Picker -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Smart Wizard -->
+    <link rel="stylesheet" href="assets/css/smart_wizard_all.min.css">
+    <!-- Falg Icons -->
+    <link rel="stylesheet" href="assets/css/flag-icons.css">
+    <!-- Select2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- Matrial icon -->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <!-- Custom Style-Sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <style>
+        .daterangepicker {
+            top: 683px !important;
+        }
+    </style>
+</head>
+
+<body class="mian-landing-body">
+    <div class="body-wrapper main-landing-wrapper steper-wrapper">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <a class="logo" href="">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="dropdown">
+                                <button class="lang-drpdn" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <lord-icon src="https://cdn.lordicon.com/pbbsmkso.json" trigger="hover"
+                                        colors="primary:#ffffff,secondary:#ffffff" style="width:40px;height:40px">
+                                    </lord-icon>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item lang-item" href="#">
+                                            <img src="assets/images/eng-falg.jpg" alt="">
+                                            <span>English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item lang-item border-0" href="#">
+                                            <img src="assets/images/romanian-flag.jpg" alt="">
+                                            <span>Romanian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="side-bar-link">
+                                <i class="far fa-align-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="step-sectoin step-6-sec" style="margin-top: 175px; margin-bottom: 200px; height: calc(100vh - 250px);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="steper-heading text-center">
+                                <h1>
+                                    Experience
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1 col-12">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="mb-5">
+                                            <form class="form-container" enctype='multipart/form-data'>
+                                                <div class="upload-files-container">
+                                                    <div class="drag-file-area">
+                                                        <span class="material-icons-outlined upload-icon"> file_upload </span>
+                                                        <h3 class="dynamic-message"> Drag & drop resume here </h3>
+                                                        <label class="label"> or <span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text">browse file</span> <span>from device</span> </span> </label>
+                                                    </div>
+                                                    <span class="cannot-upload-message"> <span class="material-icons-outlined">error</span> Please select a file first <span class="material-icons-outlined cancel-alert-button">cancel</span> </span>
+                                                    <div class="file-block">
+                                                        <div class="file-info"> <span class="material-icons-outlined file-icon">description</span> <span class="file-name"> </span> | <span class="file-size">  </span> </div>
+                                                        <span class="material-icons remove-file-icon">delete</span>
+                                                        <div class="progress-bar"> </div>
+                                                    </div>
+                                                    <button type="button" class="upload-button d-none"> Upload </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stepper-form-wrapper">
+                                <div class="stepper-form">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="mb-5">
+                                                <label for="" class="form-label">
+                                                    Job Title:
+                                                </label>
+                                                <input type="text" class="form-control" placeholder="Ex. Sales Manager">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="mb-5">
+                                                <label for="" class="form-label">
+                                                    Compnay:
+                                                </label>
+                                                <input type="text" class="form-control" placeholder="Ex. Apple Inc.">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="mb-5">
+                                                <label for="" class="form-label">
+                                                    Start Date:
+                                                </label>
+                                                <input type="text" class="form-control" name="dates" value="10/24/2000" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="mb-5">
+                                                <label for="" class="form-label">
+                                                    End Date:
+                                                </label>
+                                                <input type="text" class="form-control" name="dates" value="10/24/2000" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="d-flex align-items-center justify-content-center w-100">
+                                                <a class="form-del-btn" href="">Delete
+                                                    <lord-icon class="ms-2" src="https://cdn.lordicon.com/dykoqszm.json" trigger="hover"
+                                                        colors="primary:#ffffff,secondary:#ffffff" style="width:20px;height:20px">
+                                                    </lord-icon>
+                                                </a>
+                                                <a class="form-add-btn" href="">Add
+                                                    <lord-icon class="ms-2" src="https://cdn.lordicon.com/zrkkrrpl.json" trigger="hover"
+                                                        colors="primary:#ffffff,secondary:#ffffff" style="width:20px;height:20px">
+                                                    </lord-icon>
+                                                </a>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1 col-12">
+                            <div class="stepper-btn">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-6">
+                                        <div class="">
+                                            <a href="register-step-5.html" class="back-btn">
+                                                <i class="far fa-long-arrow-left me-2"></i> Back
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-6">
+                                        <div class="text-end">
+                                            <a href="" class="next-btn">
+                                                Save <i class="fal fa-check ms-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="copyright-content">
+                            <p class="">
+                                © 2024 Find Talent LLC.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-end">
+                            <a href="" class="text-link-voilet">
+                                Help?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Jquery CDN -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Lord Icon -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <!-- validate js -->
+    <script src="assets/js/jquery.validate.js"></script>
+    <!-- Smart Wizard -->
+    <script src="assets/js/jquery.smartWizard.min.js"></script>
+    <!-- Owl Carsoul -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Select2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>
+    <!-- Intel tel Input -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@16.0.2/build/js/intlTelInput.js"></script>
+    <!-- Date Range Picker -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(function () {
+            $('input[name="dates"]').daterangepicker({
+                singleDatePicker: true,
+                showDropdowns: true,
+                minYear: 1901,
+                maxYear: new Date().getFullYear() // Set maxYear to current year
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Add button click event
+            $('.form-add-btn').click(function(e) {
+                e.preventDefault();
+                var $educationForm = $('.stepper-form').first().clone(); // Clone the first education form
+                $educationForm.find('input[type="text"]').val(''); // Clear input values
+                $educationForm.appendTo('.stepper-form-wrapper'); // Append the cloned form
+                updateDeleteButtonState(); // Update delete button state
+            });
+    
+            // Delete button click event
+            $('.form-del-btn').click(function(e) {
+                e.preventDefault();
+                if ($('.stepper-form').length > 1) {
+                    $('.stepper-form').last().remove(); // Remove the last education form if more than one exists
+                }
+                updateDeleteButtonState(); // Update delete button state
+            });
+    
+            // Function to update delete button state
+            function updateDeleteButtonState() {
+                var $deleteButtons = $('.form-del-btn');
+                if ($('.stepper-form').length === 1) {
+                    $deleteButtons.prop('disabled', true); // Disable delete button if only one form exists
+                } else {
+                    $deleteButtons.prop('disabled', false); // Enable delete button if more than one form exists
+                }
+            }
+    
+            // Initial update of delete button state
+            updateDeleteButtonState();
+        });
+    </script>
+    <script>
+        var isAdvancedUpload = function() {
+  var div = document.createElement('div');
+  return (('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)) && 'FormData' in window && 'FileReader' in window;
+}();
+
+let draggableFileArea = document.querySelector(".drag-file-area");
+let browseFileText = document.querySelector(".browse-files");
+let uploadIcon = document.querySelector(".upload-icon");
+let dragDropText = document.querySelector(".dynamic-message");
+let fileInput = document.querySelector(".default-file-input");
+let cannotUploadMessage = document.querySelector(".cannot-upload-message");
+let cancelAlertButton = document.querySelector(".cancel-alert-button");
+let uploadedFile = document.querySelector(".file-block");
+let fileName = document.querySelector(".file-name");
+let fileSize = document.querySelector(".file-size");
+let progressBar = document.querySelector(".progress-bar");
+let removeFileButton = document.querySelector(".remove-file-icon");
+let uploadButton = document.querySelector(".upload-button");
+let fileFlag = 0;
+
+fileInput.addEventListener("click", () => {
+	fileInput.value = '';
+	console.log(fileInput.value);
+});
+
+fileInput.addEventListener("change", e => {
+	console.log(" > " + fileInput.value)
+	uploadIcon.innerHTML = 'check_circle';
+	dragDropText.innerHTML = 'File Dropped Successfully!';
+	document.querySelector(".label").innerHTML = `drag & drop or <span class="browse-files"> <input type="file" class="default-file-input" style=""/> <span class="browse-files-text" style="top: 0;"> browse file</span></span>`;
+	uploadButton.innerHTML = `Upload`;
+	fileName.innerHTML = fileInput.files[0].name;
+	fileSize.innerHTML = (fileInput.files[0].size/1024).toFixed(1) + " KB";
+	uploadedFile.style.cssText = "display: flex;";
+	progressBar.style.width = 0;
+	fileFlag = 0;
+});
+
+uploadButton.addEventListener("click", () => {
+	let isFileUploaded = fileInput.value;
+	if(isFileUploaded != '') {
+		if (fileFlag == 0) {
+    		fileFlag = 1;
+    		var width = 0;
+    		var id = setInterval(frame, 50);
+    		function frame() {
+      			if (width >= 390) {
+        			clearInterval(id);
+					uploadButton.innerHTML = `<span class="material-icons-outlined upload-button-icon"> check_circle </span> Uploaded`;
+      			} else {
+        			width += 5;
+        			progressBar.style.width = width + "px";
+      			}
+    		}
+  		}
+	} else {
+		cannotUploadMessage.style.cssText = "display: flex; animation: fadeIn linear 1.5s;";
+	}
+});
+
+cancelAlertButton.addEventListener("click", () => {
+	cannotUploadMessage.style.cssText = "display: none;";
+});
+
+if(isAdvancedUpload) {
+	["drag", "dragstart", "dragend", "dragover", "dragenter", "dragleave", "drop"].forEach( evt => 
+		draggableFileArea.addEventListener(evt, e => {
+			e.preventDefault();
+			e.stopPropagation();
+		})
+	);
+
+	["dragover", "dragenter"].forEach( evt => {
+		draggableFileArea.addEventListener(evt, e => {
+			e.preventDefault();
+			e.stopPropagation();
+			uploadIcon.innerHTML = 'file_download';
+			dragDropText.innerHTML = 'Drop your file here!';
+		});
+	});
+
+	draggableFileArea.addEventListener("drop", e => {
+		uploadIcon.innerHTML = 'check_circle';
+		dragDropText.innerHTML = 'File Dropped Successfully!';
+		document.querySelector(".label").innerHTML = `drag & drop or <span class="browse-files"> <input type="file" class="default-file-input" style=""/> <span class="browse-files-text" style="top: -23px; left: -20px;"> browse file</span> </span>`;
+		uploadButton.innerHTML = `Upload`;
+		
+		let files = e.dataTransfer.files;
+		fileInput.files = files;
+		console.log(files[0].name + " " + files[0].size);
+		console.log(document.querySelector(".default-file-input").value);
+		fileName.innerHTML = files[0].name;
+		fileSize.innerHTML = (files[0].size/1024).toFixed(1) + " KB";
+		uploadedFile.style.cssText = "display: flex;";
+		progressBar.style.width = 0;
+		fileFlag = 0;
+	});
+}
+
+removeFileButton.addEventListener("click", () => {
+	uploadedFile.style.cssText = "display: none;";
+	fileInput.value = '';
+	uploadIcon.innerHTML = 'file_upload';
+	dragDropText.innerHTML = 'Drag & drop any file here';
+	document.querySelector(".label").innerHTML = `or <span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text">browse file</span> <span>from device</span> </span>`;
+	uploadButton.innerHTML = `Upload`;
+});
+    </script>
+    
+
+</body>
+
+</html>

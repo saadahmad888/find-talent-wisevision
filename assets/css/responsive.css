@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 992px){
+    
+}
+@media only screen and (max-width: 768px){
+    .main-landing-wrapper{
+        background: none;
+    }
+    .upload-files-container{
+        padding: 20px 40px;
+    }
+    .drag-file-area{
+        width: auto;
+        padding: 20px 30px;
+    }
+    .step-6-sec{
+        margin-top: 250px!important;
+        margin-bottom: 250px!important;
+    }
+}
+@media only screen and (max-width: 576px){
+    
+}
+@media only screen and (max-width: 400px){
+    
+}
